@@ -1,0 +1,1 @@
+A project to create a landing page from scratch, using everything I know about html, css and flexbox so far.
