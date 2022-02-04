@@ -1,0 +1,56 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.header, .herotext, .footer {
+    background-color: #1F2937;
+    color: white
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    padding-top: 16px;
+    padding-left: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.herotext {
+
+}
+
+.icons {
+
+}
+
+.pullquote {
+background-color: #E5E7EB;
+}
+
+.CTA {
+
+}
+
+.bluepanel {
+
+}
+
+.footer {
+
+}
