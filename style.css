@@ -8,7 +8,7 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-.header, .herotext, .footer {
+.header, .hero, .subhero, .footer {
     background-color: #1F2937;
     color: white
 }
@@ -31,26 +31,51 @@ h1 {
     font-weight: bold;
 }
 
-.herotext {
+.herotext, .subhero {
+    display: flex;
+}
 
+.hero {
+    display: flex;
 }
 
 .icons {
+display: flex;
+justify-content: center;
+gap: 5em;
+}
 
+.hero2 {
+    display: flex;
+    justify-content: center;
+}
+
+.captions {
+    display: flex;
+    justify-content: center;
+    gap:2em;
 }
 
 .pullquote {
 background-color: #E5E7EB;
 }
 
-.CTA {
-
-}
-
-.bluepanel {
-
-}
-
 .footer {
+    display: flex;
+    justify-content: center;
+}
 
+ul {
+    list-style-type: none; 
+    padding: 16px;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
 }
