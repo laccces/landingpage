@@ -16,6 +16,7 @@ justify-content: space-between;
 .header {
 display: flex;
 justify-content: space-between;
+padding-bottom: 60px;
 }
 
 .logo {
@@ -23,7 +24,7 @@ justify-content: space-between;
     font-size: 28px;
     color: white;
     padding-top: 16px;
-    padding-left: 32px;
+    padding-left: 100px;
 }
 
 h1 {
@@ -31,18 +32,20 @@ h1 {
     font-weight: bold;
 }
 
-.herotext, .subhero {
-    display: flex;
+.img2 {
+    width: 400px;
+    height: 250px;
 }
 
 .hero {
     display: flex;
+    padding-left: 100px;
 }
 
 .icons {
 display: flex;
 justify-content: center;
-gap: 5em;
+gap: 2em;
 }
 
 .hero2 {
@@ -53,11 +56,15 @@ gap: 5em;
 .captions {
     display: flex;
     justify-content: center;
-    gap:2em;
+    font-size: 14px;
+    gap: 2em;
 }
 
 .pullquote {
 background-color: #E5E7EB;
+display: flex;
+justify-content: center;
+font-style: italic;
 }
 
 .footer {
@@ -74,7 +81,7 @@ ul {
 }
 
 img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 2px solid black;
     border-radius: 15px;
